@@ -14,10 +14,10 @@ Our game utilizes multiple uses of buttons, sheets, and visuals.<br><br>
 - [ ] Make photos of notes and key signatures appear
 - [ ] Make Introduction/Instructions appear
 ### Phase 2
-- [] Create 4 buttons for each window
-- [] Attribute letters to said buttons
-- [] Add noise in response of correct button being pressed by user
+- [ ] Create 4 buttons for each window
+- [ ] Attribute letters to said buttons
+- [ ] Add noise in response of correct button being pressed by user
 ### Phase 3
-- [] "Go Back" options/buttons
-- [] Add score report
-- [] Add colors/aesthetics to game
+- [ ] "Go Back" options/buttons
+- [ ] Add score report
+- [ ] Add colors/aesthetics to game
