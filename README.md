@@ -13,6 +13,7 @@ Our game utilizes multiple uses of buttons, sheets, and visuals.<br><br>
 - [x] Make Game Title
 - [x] Make photos of notes and key signatures appear
 - [x] Make Introduction/Instructions appear
+[Milestone Link](https://youtu.be/hAYiD_HSWds?si=n21MB1OUJMUMO9-P)
 ### Phase 2
 - [ ] Create 4 buttons for each window
 - [ ] Attribute letters to said buttons
