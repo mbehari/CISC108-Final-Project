@@ -1,5 +1,5 @@
 from designer import *
-game_name = text("black", "Game Name", 40, 400, 100)
+game_name = text("black", "Musical Madness", 40, 400, 100)
 
 instructions = text("black", "For this game, you will be tested on how well you know your scales!", 20, 400, 300)
 instructions2 = text("black", "You'll be shown different musical notes/key signatures", 20, 400, 350)

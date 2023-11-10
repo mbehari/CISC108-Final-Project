@@ -10,9 +10,9 @@ Additionally, there will also be an option for users to practice guessing key si
 Our game utilizes multiple uses of buttons, sheets, and visuals.<br><br>
 ## Task Lists For Phases
 ### Phase 1
-- [ ] Make Game Title
-- [ ] Make photos of notes and key signatures appear
-- [ ] Make Introduction/Instructions appear
+- [x] Make Game Title
+- [x] Make photos of notes and key signatures appear
+- [x] Make Introduction/Instructions appear
 ### Phase 2
 - [ ] Create 4 buttons for each window
 - [ ] Attribute letters to said buttons
