@@ -17,7 +17,7 @@ Our game utilizes multiple uses of buttons, sheets, and visuals.<br><br>
 ### Phase 2
 - [ ] Create 4 buttons for each window
 - [ ] Attribute letters to said buttons
-- [ ] Add gifs
+- [ ] Add gifs to our game
 ### Phase 3
 - [ ] "Go Back" options/buttons
 - [ ] Add score report

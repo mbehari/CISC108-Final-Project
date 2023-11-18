@@ -17,5 +17,5 @@ when(button2, 'clicking', on_button_click)
 when(button3, 'clicking', on_button_click)
 when(button4, 'clicking', on_button_click)
 
-
+pause()
 
