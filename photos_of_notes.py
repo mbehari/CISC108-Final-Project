@@ -1,5 +1,5 @@
 from designer import *
-# image for a in the treble clef
+# image for a in the treble clef!
 a_note = image("https://www.musictheoryacademy.com/wp-content/uploads/2020/06/Treble-Clef-Notes-Quiz-A.jpg")
 # image for b in the treble clef
 b_note = image("https://www.musictheoryacademy.com/wp-content/uploads/2020/06/Treble-Clef-Notes-Quiz-B.jpg")
