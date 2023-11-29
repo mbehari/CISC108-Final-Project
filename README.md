@@ -10,15 +10,17 @@ Additionally, there will also be an option for users to practice guessing key si
 Our game utilizes multiple uses of buttons, sheets, and visuals.<br><br>
 ## Task Lists For Phases
 ### Phase 1
-[Milestone Link](https://youtu.be/hAYiD_HSWds?si=n21MB1OUJMUMO9-P)
+[Milestone 1 Link](https://youtu.be/hAYiD_HSWds?si=n21MB1OUJMUMO9-P)
+[Milestone 2 Link](https://youtu.be/JudvGa5a230)
 - [x] Make Game Title
 - [x] Make photos of notes and key signatures appear
 - [x] Make Introduction/Instructions appear
 ### Phase 2
-- [ ] Create 4 buttons for each window
-- [ ] Attribute letters to said buttons
-- [ ] Add gifs to our game
+- [x] Create 4 buttons for each window
+- [x] Attribute letters to said buttons
+- [x] Make dataclasses
 ### Phase 3
 - [ ] "Go Back" options/buttons
 - [ ] Add score report
 - [ ] Add colors/aesthetics to game
+- [ ] Combine each file into main 

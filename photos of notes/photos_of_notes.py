@@ -13,5 +13,4 @@ e_note = image("https://www.musictheoryacademy.com/wp-content/uploads/2020/06/Tr
 f_note = image("https://www.musictheoryacademy.com/wp-content/uploads/2020/06/Treble-Clef-Notes-Quiz-low-F.jpg")
 # image for g in the treble clef
 g_note = image("https://www.musictheoryacademy.com/wp-content/uploads/2020/06/Treble-Clef-Notes-Quiz-G.jpg")
-photos_of_notes_list = [a_note,b_note,c_note,d_note,e_note,f_note,g_note]
 draw(g_note)
