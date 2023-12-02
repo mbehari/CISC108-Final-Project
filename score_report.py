@@ -24,8 +24,8 @@ new_screen = World(game_name,that_is_correct,photos_of_notes_list,final_score,sc
 
 def update_score(world):
     new_screen.counter.text = "Your score is " + str(new_screen.total_score)
-test_variable = True # this line was used for testing function
-if test_variable == True: # this line was used for testing, change code later to reflect correct/incorrect
-    update_score(new_screen)
+    test_variable = True # this line was used for testing function
+    #if test_variable == True: # this line was used for testing, change code later to reflect correct/incorrect
+        #update_score(new_screen)
 
-draw(new_screen.counter)
+#draw(new_screen.counter)
