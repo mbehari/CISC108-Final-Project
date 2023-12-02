@@ -85,4 +85,4 @@ def handle_user_input(quiz: QuizScreen, keys:str):
 when('starting', create_quiz_screen)
 when('typing', handle_user_input)
 start()
-#debug(scene='quiz screen.')
+#debug(scene='quiz screen')
