@@ -24,6 +24,7 @@ class QuizScreen:
     current_question: DesignerObject
     correct_answer: str
     score: int
+    #list_of_questions: list[DesignerObject]
 
 @dataclass
 class Quiz_Question:
@@ -31,40 +32,28 @@ class Quiz_Question:
     answer: str
 
 def create_title_text(message: str, x: int, y: int) -> DesignerObject:
-    title = text("black", message, 20, x, y, layer='top')
+    title = text("black", message, 20, x, y)
     return title
 
+qA = Quiz_Question(image(a_note, 200, 350), "a")
+qB = Quiz_Question(image(b_note, 200, 350), "b")
+qC = Quiz_Question(image(c_note, 200, 350), "c")
+qD = Quiz_Question(image(d_note, 200, 350), "d")
+qE = Quiz_Question(image(e_note, 200, 350), "e")
+qF = Quiz_Question(image(f_note, 200, 350), "f")
+qG = Quiz_Question(image(g_note, 200, 350), "g")
+list_of_questions = [qA, qB, qC, qD, qE, qF, qG]
+
 def create_quiz_screen() -> QuizScreen:
-    # Create list of questions
-    qA = Quiz_Question(image(a_note, 20, 50), "a")
-    qB = Quiz_Question(image(b_note, 20, 50), "b")
-    qC = Quiz_Question(image(c_note, 20, 50), "c")
-    qD = Quiz_Question(image(d_note, 20, 50), "d")
-    qE = Quiz_Question(image(e_note, 20, 50), "e")
-    qF = Quiz_Question(image(f_note, 20, 50), "f")
-    qG = Quiz_Question(image(g_note, 20, 50), "g")
-    # List of question
-    list_of_questions = [qA, qB, qC, qD, qE, qF, qG]
     random_element = randint(-1,len(list_of_questions)-1)
     initial_question = list_of_questions[random_element]
     return QuizScreen(create_title_text("Musical Madness", 400, 200), initial_question.image, initial_question.answer, 0)
+
 def choose_question(quiz:QuizScreen):
-    qA = Quiz_Question(image(a_note, 20, 50), "a")
-    qB = Quiz_Question(image(b_note, 20, 50), "b")
-    qC = Quiz_Question(image(c_note, 20, 50), "c")
-    qD = Quiz_Question(image(d_note, 20, 50), "d")
-    qE = Quiz_Question(image(e_note, 20, 50), "e")
-    qF = Quiz_Question(image(f_note, 20, 50), "f")
-    qG = Quiz_Question(image(g_note, 20, 50), "g")
-    list_of_questions = [qA, qB, qC, qD, qE, qF, qG]
     random_element = randint(-1, len(list_of_questions) - 1)
     new_question = list_of_questions[random_element]
     quiz.current_question = new_question.image
     quiz.correct_answer = new_question.answer
-
-def correct_answer(quiz: QuizScreen):
-    question = choose_question(quiz)
-    quiz.correct_answer = question.answer
 
 def handle_user_input(quiz: QuizScreen, keys:str):
     user_input = keys
@@ -73,17 +62,16 @@ def handle_user_input(quiz: QuizScreen, keys:str):
         print("Chosen", quiz.correct_answer)
         quiz.score += 1
         print("Score:", quiz.score)
-        destroy(quiz.current_question)
+        #hide(quiz.current_question)
         choose_question(quiz)
+        #show(quiz.current_question)
     else:
         print("Chosen", user_input, "- Incorrect")
-    '''choose_question(quiz).image = next_question.image
-    choose_question(quiz).correct_answer = next_question.answer'''
-
 
 
 when('starting', create_quiz_screen)
 when('typing', handle_user_input)
 start()
 #debug(scene='quiz screen')
+
 
