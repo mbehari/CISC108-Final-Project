@@ -110,21 +110,21 @@ def update_score(quiz):
 def game_hard_mode(quiz:QuizScreen):
     '''updates the screen and adds more possible questions and answers to the
     earlier lists if the player's score is high enough to reach hard mode'''
-    if quiz.score > 1:
+    if quiz.score > 10:
         quiz.mode.text = "Hard Mode!"
         quiz.instructions3.text = (
             "Choose which musical concept the image represents and increase your score! Reach 50 for a surprise.")
         quiz.hard_mode_instructions.text = "For non-note-name questions, type the first letter of the represented concept."
         notes_images.append(
-            "https://images.ctfassets.net/3s5io6mnxfqz/5u5zhG2SpGZjmU8aG6UqXw/a6dadc2fdc6d7aa80e79d6621b7d21ec/Screen_Shot_2021-05-17_at_2.54.36_PM.png") #treble clef
+            "https://www.musictheoryacademy.com/wp-content/uploads/2020/06/Treble-Clef-Symbol.jpg") #treble clef
         notes_images.append(
-            "https://uploads-ssl.webflow.com/5d88ada011bed54810655344/5e9dea301124584654fe326c_Free-Note-Value-Musical-Symbols-Liam-Pitcher-Website.png") #quarter note
+            "https://t4.ftcdn.net/jpg/02/88/35/43/360_F_288354347_pPVuNd39jxjf4mQUOwfNneqKZuE1r1KW.jpg") #quarter note
         notes_images.append(
-            "https://i0.wp.com/www.thenewdrummer.com/wp-content/uploads/2017/11/Four-Sixteenth-Notes-300x147.png?resize=300%2C147") #sixteenth note
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Sixteenth_note_run.svg/220px-Sixteenth_note_run.svg.png") #sixteenth note
         notes_images.append(
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Half_note_with_upwards_stem.svg/1229px-Half_note_with_upwards_stem.svg.png") #half note
+            "https://static.thenounproject.com/png/98895-200.png") #half note
         notes_images.append(
-            "https://qph.cf2.quoracdn.net/main-qimg-2a78b9578973c055c6306a62bc0b2e4e") #whole note
+            "https://upload.wikimedia.org/wikipedia/commons/4/4a/One_single_whole_note.png") #whole note
         notes_images.append(
             "https://hellomusictheory.com/wp-content/uploads/2019/02/7.6-1024x173.png") #rests
         notes.append("t") #t for treble clef
@@ -137,7 +137,7 @@ def game_hard_mode(quiz:QuizScreen):
 def special_surprise(quiz: QuizScreen):
     '''updates the screen and background if the player's score is high enough
     to reach the 'musical master' qualification and earn the special surprise'''
-    if quiz.score > 5:
+    if quiz.score > 50:
         set_window_image(
             "https://media.istockphoto.com/id/1385311380/vector/illustration-frame-of-simple-colorful-musical-notes.jpg?s=612x612&w=0&k=20&c=JPXuGinRRjQNj6H5Kb_tQdzbwurMvRmTRiyW5a8UFv4=")
         quiz.title.color = "darkgreen"
