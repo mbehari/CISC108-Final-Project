@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f1a388b-475b-4f01-927b-a2a01dc64959" name="Changes" comment="commented code, tried to lessen overly long lines, added an incorrect message field">
+    <list default="true" id="9f1a388b-475b-4f01-927b-a2a01dc64959" name="Changes" comment="Merge pull request #9 from mbehari/mischa-version&#10;&#10;commented code, tried to lessen overly long lines, added an incorrect…">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Combined.py" beforeDir="false" afterPath="$PROJECT_DIR$/Combined.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +33,18 @@
         </map>
       </branch-storage>
     </excluded-from-favorite>
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="mbehari &lt;149335717+mbehari@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="keys" />
+        <entry key="$PROJECT_DIR$" value="ishas-main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;history&quot;: [
@@ -74,26 +79,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;mischa__work&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ishakashif/Desktop/CISC108-Final-Project&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/ishakashif/Desktop/CISC108-Final-Project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
     ]
   }
-}</component>
+}]]></component>
   <component name="Push.Settings">
     <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
@@ -154,6 +162,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.playing_page" />
+        <item itemvalue="Python.playing_page" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +182,8 @@
       <workItem from="1701389857122" duration="5211000" />
       <workItem from="1701564281789" duration="9027000" />
       <workItem from="1701580758850" duration="7359000" />
-      <workItem from="1701634730912" duration="1320000" />
+      <workItem from="1701634730912" duration="986000" />
+      <workItem from="1701639861443" duration="799000" />
     </task>
     <task id="LOCAL-00001" summary="Information regarding planning">
       <option name="closed" value="true" />
@@ -279,13 +289,13 @@
       <option name="project" value="LOCAL" />
       <updated>1701589911636</updated>
     </task>
-    <task id="LOCAL-00014" summary="commented code, tried to lessen overly long lines, added an incorrect message field">
+    <task id="LOCAL-00014" summary="Merge pull request #9 from mbehari/mischa-version&#10;&#10;commented code, tried to lessen overly long lines, added an incorrect…">
       <option name="closed" value="true" />
-      <created>1701636058938</created>
+      <created>1701639840927</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1701636058938</updated>
+      <updated>1701639840927</updated>
     </task>
     <option name="localTasksCounter" value="15" />
     <servers />
@@ -314,18 +324,18 @@
     <MESSAGE value="trying to hide images commit" />
     <MESSAGE value="FIRST DRAFT OF FINAL PROJECT AHAHAHA" />
     <MESSAGE value="added some comments" />
-    <MESSAGE value="commented code, tried to lessen overly long lines, added an incorrect message field" />
-    <option name="LAST_COMMIT_MESSAGE" value="commented code, tried to lessen overly long lines, added an incorrect message field" />
+    <MESSAGE value="Merge pull request #9 from mbehari/mischa-version&#10;&#10;commented code, tried to lessen overly long lines, added an incorrect…" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge pull request #9 from mbehari/mischa-version&#10;&#10;commented code, tried to lessen overly long lines, added an incorrect…" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CISC108_Final_Project$quiz_screen_question.coverage" NAME="quiz_screen_question Coverage Results" MODIFIED="1701235257903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CISC108_Final_Project$title.coverage" NAME="welcome_page Coverage Results" MODIFIED="1699638274878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CISC108_Final_Project$photos_of_notes.coverage" NAME="photos_of_notes Coverage Results" MODIFIED="1701572953865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CISC108_Final_Project$playing_page.coverage" NAME="playing_page Coverage Results" MODIFIED="1701293844863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
     <SUITE FILE_PATH="coverage/CISC108_Final_Project$dataclass_definiton.coverage" NAME="dataclass_definiton Coverage Results" MODIFIED="1701392931896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CISC108_Final_Project$Combined.coverage" NAME="Combined Coverage Results" MODIFIED="1701640584837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CISC108_Final_Project$welcome_page.coverage" NAME="welcome_page Coverage Results" MODIFIED="1701639598812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CISC108_Final_Project$score_report.coverage" NAME="score_report Coverage Results" MODIFIED="1701388531688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CISC108_Final_Project$game_page_with_buttons.coverage" NAME="game_page_with_buttons Coverage Results" MODIFIED="1700415899497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CISC108_Final_Project$welcome_page.coverage" NAME="welcome_page Coverage Results" MODIFIED="1701634922396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CISC108_Final_Project$Combined.coverage" NAME="Combined Coverage Results" MODIFIED="1701635954997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CISC108_Final_Project$playing_page.coverage" NAME="playing_page Coverage Results" MODIFIED="1701293844863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
+    <SUITE FILE_PATH="coverage/CISC108_Final_Project$photos_of_notes.coverage" NAME="photos_of_notes Coverage Results" MODIFIED="1701390545345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/photos of notes" />
+    <SUITE FILE_PATH="coverage/CISC108_Final_Project$title.coverage" NAME="welcome_page Coverage Results" MODIFIED="1699638274878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CISC108_Final_Project$quiz_screen_question.coverage" NAME="quiz_screen_question Coverage Results" MODIFIED="1701494111310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
