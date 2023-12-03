@@ -17,7 +17,7 @@ The instructions for "Musical Madness" are quite simple, as users only have to u
 As previously mentioned in the "About" section, if users are shown an image of a note (such as the "b note"), they simply have to tap the "b" key on their keyboard. This rule stays consistent as the game progresses! 
 
 ## Authors
-Isha Kashif: ishak@udel.edu
+Isha Kashif: ishak@udel.edu <br>
 Mischa Behari: mbehari@udel.edu
 
 ## Acknowledgements 
