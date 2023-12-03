@@ -94,12 +94,12 @@ def game_hard_mode(quiz:QuizScreen):
         quiz.mode.text = "Hard Mode!"
         quiz.instructions3.text = ("Choose which musical concept the image represents and increase your score! Reach 50 for a surprise.")
         quiz.hard_mode_instructions.text = "For non-note-name questions, type the first letter of the represented concept."
-        notes_images.append("https://images.ctfassets.net/3s5io6mnxfqz/5u5zhG2SpGZjmU8aG6UqXw/a6dadc2fdc6d7aa80e79d6621b7d21ec/Screen_Shot_2021-05-17_at_2.54.36_PM.png")
-        notes_images.append("https://uploads-ssl.webflow.com/5d88ada011bed54810655344/5e9dea301124584654fe326c_Free-Note-Value-Musical-Symbols-Liam-Pitcher-Website.png")
-        notes_images.append("https://i0.wp.com/www.thenewdrummer.com/wp-content/uploads/2017/11/Four-Sixteenth-Notes-300x147.png?resize=300%2C147")
-        notes_images.append("https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Half_note_with_upwards_stem.svg/1229px-Half_note_with_upwards_stem.svg.png")
-        notes_images.append("https://qph.cf2.quoracdn.net/main-qimg-2a78b9578973c055c6306a62bc0b2e4e")
-        notes_images.append("https://hellomusictheory.com/wp-content/uploads/2019/02/7.6-1024x173.png")
+        notes_images.append("https://images.ctfassets.net/3s5io6mnxfqz/5u5zhG2SpGZjmU8aG6UqXw/a6dadc2fdc6d7aa80e79d6621b7d21ec/Screen_Shot_2021-05-17_at_2.54.36_PM.png") #treble clef
+        notes_images.append("https://uploads-ssl.webflow.com/5d88ada011bed54810655344/5e9dea301124584654fe326c_Free-Note-Value-Musical-Symbols-Liam-Pitcher-Website.png") #quarter note
+        notes_images.append("https://i0.wp.com/www.thenewdrummer.com/wp-content/uploads/2017/11/Four-Sixteenth-Notes-300x147.png?resize=300%2C147") #sixteenth note
+        notes_images.append("https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Half_note_with_upwards_stem.svg/1229px-Half_note_with_upwards_stem.svg.png") #half note
+        notes_images.append("https://qph.cf2.quoracdn.net/main-qimg-2a78b9578973c055c6306a62bc0b2e4e") #whole note
+        notes_images.append("https://hellomusictheory.com/wp-content/uploads/2019/02/7.6-1024x173.png") #rests
         notes.append("t") #t for treble clef
         notes.append("q") #q for quarter note
         notes.append("s") #s for sixteenth note
