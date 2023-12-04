@@ -11,7 +11,7 @@ be prompted to utilize their keyboards in order to answer the question of "which
 After a user gets a score of "50," more colors and themes are introduced to the game! It is important to note that there is no "winning" or "losing" in the game, as it is solely for the purpose of practicing musical scales knowledge!
 
 ## Preview 
-
+[Gameplay Video](https://youtu.be/swTXl6oRC9k)
 ## Instructions
 The instructions for "Musical Madness" are quite simple, as users only have to utilize their keyboards in order to play the game.
 As previously mentioned in the "About" section, if users are shown an image of a note (such as the "b note"), they simply have to tap the "b" key on their keyboard. This rule stays consistent as the game progresses! 
